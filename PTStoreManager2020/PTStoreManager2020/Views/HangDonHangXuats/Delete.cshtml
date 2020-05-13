@@ -1,0 +1,48 @@
+﻿@model PTStoreManager2020.Models.HangDonHangXuat
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>HangDonHangXuat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DonHangXuat.MaKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonHangXuat.MaKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hang.MaMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hang.MaMH)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

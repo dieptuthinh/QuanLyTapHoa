@@ -1,0 +1,51 @@
+﻿@model IEnumerable<PTStoreManager2020.Models.DonHangNhap>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayNhap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiamGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KieuGiamGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NhaCungCap.TenNCC)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayNhap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiamGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KieuGiamGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NhaCungCap.TenNCC)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaDHN }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaDHN }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaDHN })
+        </td>
+    </tr>
+}
+
+</table>

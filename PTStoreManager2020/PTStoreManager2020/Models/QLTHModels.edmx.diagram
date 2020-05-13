@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="772144b6e2694d34bae1f2d0a891bc4c" Name="Diagram1">
+        <EntityTypeShape EntityType="QLTapHoaModel.DonHangNhap" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.DonHangXuat" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.Hang" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.HangDonHangNhap" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.HangDonHangXuat" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.KhachHang" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.MauHang" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.NguoiDung" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.NhaCungCap" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTapHoaModel.NhomHang" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="QLTapHoaModel.FK_DonHangXuat_HangDonHangNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_NhaCungCap_DonHangNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_DonHangXuat_HangDonHangXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_KhachHang_DonHangXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_Hang_DonHangNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_Hang_DonHangXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_MauHang_Hang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.FK_NhaCungCap_Hang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTapHoaModel.MauHangNhomHang" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
