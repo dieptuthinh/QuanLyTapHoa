@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F517FBAA-5FC5-4FED-814F-D9AD037E8737}</ProjectGuid>
+    <ProjectGuid>{7CDD34DB-247D-4200-84EB-F46BCA1CB398}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -18,7 +18,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44397</IISExpressSSLPort>
+    <IISExpressSSLPort>44338</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -128,17 +128,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\DonHangNhapsController.cs" />
-    <Compile Include="Controllers\DonHangXuatsController.cs" />
-    <Compile Include="Controllers\HangDonHangNhapsController.cs" />
-    <Compile Include="Controllers\HangDonHangXuatsController.cs" />
-    <Compile Include="Controllers\HangsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\KhachHangsController.cs" />
-    <Compile Include="Controllers\MauHangsController.cs" />
     <Compile Include="Controllers\NguoiDungsController.cs" />
-    <Compile Include="Controllers\NhaCungCapsController.cs" />
-    <Compile Include="Controllers\NhomHangsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -190,6 +181,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\QLTH.sql" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -242,60 +234,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\NhomHangs\Create.cshtml" />
-    <Content Include="Views\NhomHangs\Delete.cshtml" />
-    <Content Include="Views\NhomHangs\Details.cshtml" />
-    <Content Include="Views\NhomHangs\Edit.cshtml" />
-    <Content Include="Views\NhomHangs\Index.cshtml" />
-    <Content Include="Views\NhaCungCaps\Create.cshtml" />
-    <Content Include="Views\NhaCungCaps\Delete.cshtml" />
-    <Content Include="Views\NhaCungCaps\Details.cshtml" />
-    <Content Include="Views\NhaCungCaps\Edit.cshtml" />
-    <Content Include="Views\NhaCungCaps\Index.cshtml" />
     <Content Include="Views\NguoiDungs\Create.cshtml" />
     <Content Include="Views\NguoiDungs\Delete.cshtml" />
     <Content Include="Views\NguoiDungs\Details.cshtml" />
     <Content Include="Views\NguoiDungs\Edit.cshtml" />
     <Content Include="Views\NguoiDungs\Index.cshtml" />
-    <Content Include="Views\MauHangs\Create.cshtml" />
-    <Content Include="Views\MauHangs\Delete.cshtml" />
-    <Content Include="Views\MauHangs\Details.cshtml" />
-    <Content Include="Views\MauHangs\Edit.cshtml" />
-    <Content Include="Views\MauHangs\Index.cshtml" />
-    <Content Include="Views\KhachHangs\Create.cshtml" />
-    <Content Include="Views\KhachHangs\Delete.cshtml" />
-    <Content Include="Views\KhachHangs\Details.cshtml" />
-    <Content Include="Views\KhachHangs\Edit.cshtml" />
-    <Content Include="Views\KhachHangs\Index.cshtml" />
-    <Content Include="Views\Hangs\Create.cshtml" />
-    <Content Include="Views\Hangs\Delete.cshtml" />
-    <Content Include="Views\Hangs\Details.cshtml" />
-    <Content Include="Views\Hangs\Edit.cshtml" />
-    <Content Include="Views\Hangs\Index.cshtml" />
-    <Content Include="Views\DonHangNhaps\Create.cshtml" />
-    <Content Include="Views\DonHangNhaps\Delete.cshtml" />
-    <Content Include="Views\DonHangNhaps\Details.cshtml" />
-    <Content Include="Views\DonHangNhaps\Edit.cshtml" />
-    <Content Include="Views\DonHangNhaps\Index.cshtml" />
-    <Content Include="Views\DonHangXuats\Create.cshtml" />
-    <Content Include="Views\DonHangXuats\Delete.cshtml" />
-    <Content Include="Views\DonHangXuats\Details.cshtml" />
-    <Content Include="Views\DonHangXuats\Edit.cshtml" />
-    <Content Include="Views\DonHangXuats\Index.cshtml" />
-    <Content Include="Views\HangDonHangNhaps\Create.cshtml" />
-    <Content Include="Views\HangDonHangNhaps\Delete.cshtml" />
-    <Content Include="Views\HangDonHangNhaps\Details.cshtml" />
-    <Content Include="Views\HangDonHangNhaps\Edit.cshtml" />
-    <Content Include="Views\HangDonHangNhaps\Index.cshtml" />
-    <Content Include="Views\HangDonHangXuats\Create.cshtml" />
-    <Content Include="Views\HangDonHangXuats\Delete.cshtml" />
-    <Content Include="Views\HangDonHangXuats\Details.cshtml" />
-    <Content Include="Views\HangDonHangXuats\Edit.cshtml" />
-    <Content Include="Views\HangDonHangXuats\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -328,9 +273,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49866</DevelopmentServerPort>
+          <DevelopmentServerPort>50301</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44397/</IISUrl>
+          <IISUrl>https://localhost:44338/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
