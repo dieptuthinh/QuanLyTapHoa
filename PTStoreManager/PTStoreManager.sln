@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTStoreManager", "PTStoreManager\PTStoreManager.csproj", "{7CDD34DB-247D-4200-84EB-F46BCA1CB398}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTStoreManager", "PTStoreManager.csproj", "{BBBA16A1-ED41-4E7F-989A-790A78502D87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7CDD34DB-247D-4200-84EB-F46BCA1CB398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CDD34DB-247D-4200-84EB-F46BCA1CB398}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CDD34DB-247D-4200-84EB-F46BCA1CB398}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CDD34DB-247D-4200-84EB-F46BCA1CB398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBA16A1-ED41-4E7F-989A-790A78502D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBA16A1-ED41-4E7F-989A-790A78502D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBA16A1-ED41-4E7F-989A-790A78502D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBA16A1-ED41-4E7F-989A-790A78502D87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8373C1BD-3472-4173-9619-F2BB05810703}
+		SolutionGuid = {D36CEA7B-940A-4A66-9B5C-997D14CCADA1}
 	EndGlobalSection
 EndGlobal
